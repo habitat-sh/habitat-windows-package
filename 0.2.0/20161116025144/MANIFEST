@@ -1,4 +1,4 @@
-# mwrock / mytutorialapp
+# core / habitat-windows-package
 
 
 * __Maintainer__: The Habitat Maintainers <humans@habitat.sh>
@@ -11,7 +11,7 @@
 * __License__:  
 * __Source__: [nosuchfile.tar.gz](nosuchfile.tar.gz)
 * __SHA__: SHA256 checksum not provided or required
-* __Path__: `/hab/pkgs/mwrock/mytutorialapp/0.2.0/20161116025144`
+* __Path__: `/hab/pkgs/core/habitat-windows-package/0.2.0/20161116025144`
 * __Build Dependencies__: no build dependencies or undefined
 * __Dependencies__: `core/node `
 * __Interpreters__: no interpreters or undefined
@@ -31,15 +31,15 @@ LD_RUN_PATH: /hab/pkgs/core/node/5.6.0/20161102175037/lib
 ## Plan Source
 
 ```bash
-pkg_origin=mwrock
-pkg_name=mytutorialapp
+pkg_origin=core
+pkg_name=habitat-windows-package
 pkg_version=0.2.0
 pkg_maintainer="The Habitat Maintainers <humans@habitat.sh>"
 pkg_license=()
 pkg_upstream_url=https://github.com/habitat-sh/habitat-example-plans
 pkg_source=nosuchfile.tar.gz
 pkg_deps=(core/node)
-pkg_expose=(8080)
+pkg_expose=(8090)
 
 do_download() {
   return 0

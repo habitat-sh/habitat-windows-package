@@ -1,5 +1,5 @@
 {
-    "name": "mytutorialapp",
+    "name": "habitat-windows-package",
     "version": "0.2.0",
     "description": "Node.js app for the Habitat tutorials",
     "author": "First Last <first.last@example.com>",
